@@ -1,0 +1,84 @@
+<svg width="1280" height="220" viewBox="0 0 1280 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Warm linen background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4c4a8;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#c9b896;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bfab87;stop-opacity:1" />
+    </linearGradient>
+    <!-- Subtle noise texture overlay -->
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="4" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feBlend in="SourceGraphic" mode="multiply" result="blend"/>
+      <feComposite in="blend" in2="SourceGraphic" operator="in"/>
+    </filter>
+    <!-- Fret glow -->
+    <filter id="fretGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="220" fill="url(#bgGrad)"/>
+  <!-- Grain overlay -->
+  <rect width="1280" height="220" fill="#c9b896" opacity="0.12" filter="url(#grain)"/>
+
+  <!-- ══ GUITAR STRINGS (6 strings across full width) ══ -->
+  <!-- String 1 - thinnest (high e) -->
+  <line x1="0" y1="40" x2="1280" y2="40" stroke="#7a5c3a" stroke-width="0.6" opacity="0.45"/>
+  <!-- String 2 (B) -->
+  <line x1="0" y1="68" x2="1280" y2="68" stroke="#7a5c3a" stroke-width="0.9" opacity="0.45"/>
+  <!-- String 3 (G) -->
+  <line x1="0" y1="96" x2="1280" y2="96" stroke="#7a5c3a" stroke-width="1.2" opacity="0.42"/>
+  <!-- String 4 (D) -->
+  <line x1="0" y1="124" x2="1280" y2="124" stroke="#7a5c3a" stroke-width="1.6" opacity="0.40"/>
+  <!-- String 5 (A) -->
+  <line x1="0" y1="152" x2="1280" y2="152" stroke="#7a5c3a" stroke-width="2.0" opacity="0.38"/>
+  <!-- String 6 - thickest (low E) -->
+  <line x1="0" y1="178" x2="1280" y2="178" stroke="#7a5c3a" stroke-width="2.6" opacity="0.35"/>
+
+  <!-- ══ FRET BARS (right side, expanding perspective) ══ -->
+  <!-- Nut (thicker) -->
+  <line x1="680" y1="22" x2="680" y2="188" stroke="#5c3d1e" stroke-width="4" opacity="0.85" filter="url(#fretGlow)"/>
+  <!-- Fret 1 -->
+  <line x1="780" y1="24" x2="780" y2="186" stroke="#7a5c3a" stroke-width="2" opacity="0.70"/>
+  <!-- Fret 2 -->
+  <line x1="870" y1="25" x2="870" y2="185" stroke="#7a5c3a" stroke-width="1.8" opacity="0.65"/>
+  <!-- Fret 3 -->
+  <line x1="955" y1="26" x2="955" y2="184" stroke="#7a5c3a" stroke-width="1.6" opacity="0.60"/>
+  <!-- Fret 4 -->
+  <line x1="1030" y1="27" x2="1030" y2="183" stroke="#7a5c3a" stroke-width="1.4" opacity="0.55"/>
+  <!-- Fret 5 -->
+  <line x1="1098" y1="27" x2="1098" y2="183" stroke="#7a5c3a" stroke-width="1.2" opacity="0.50"/>
+  <!-- Fret 6 -->
+  <line x1="1158" y1="28" x2="1158" y2="182" stroke="#7a5c3a" stroke-width="1.1" opacity="0.45"/>
+  <!-- Fret 7 -->
+  <line x1="1212" y1="28" x2="1212" y2="182" stroke="#7a5c3a" stroke-width="1.0" opacity="0.40"/>
+  <!-- Fret 8 -->
+  <line x1="1258" y1="28" x2="1258" y2="182" stroke="#7a5c3a" stroke-width="0.9" opacity="0.35"/>
+
+  <!-- ══ FRET DOTS (inlays) ══ -->
+  <!-- 3rd fret dot (between fret 2 and 3, on string 3 and 4 midpoint) -->
+  <circle cx="912" cy="109" r="5" fill="#9a7550" opacity="0.35"/>
+  <!-- 5th fret dot -->
+  <circle cx="1064" cy="109" r="5" fill="#9a7550" opacity="0.30"/>
+  <!-- 7th fret dot -->
+  <circle cx="1185" cy="109" r="5" fill="#9a7550" opacity="0.25"/>
+
+  <!-- ══ BOTTOM BLACK BORDER ══ -->
+  <rect x="0" y="208" width="1280" height="12" fill="#1a1008" opacity="0.92"/>
+
+  <!-- ══ MAIN TITLE TEXT ══ -->
+  <!-- Shadow layer -->
+  <text x="62" y="175" font-family="Georgia, 'Times New Roman', serif" font-size="88" font-weight="700"
+        fill="#4a2e0e" opacity="0.18" letter-spacing="-2">jinseo04</text>
+  <!-- Main text -->
+  <text x="60" y="172" font-family="Georgia, 'Times New Roman', serif" font-size="88" font-weight="700"
+        fill="#3d2410" letter-spacing="-2">jinseo04</text>
+
+  <!-- ══ SUBTITLE ══ -->
+  <text x="66" y="198" font-family="'Courier New', Courier, monospace" font-size="13" font-weight="400"
+        fill="#6b4c2a" letter-spacing="5" opacity="0.85">developer  ·  creator</text>
+</svg>
