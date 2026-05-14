@@ -4,14 +4,13 @@
 
 <br/>
 
-## 👋 안녕하세요, 저는 jinseoo4입니다
+## 👋 안녕하세요, 프로젝트에 열정이 넘치는 개발자 최진서 입니다!!
 
 ```javascript
 const jinseoo4 = {
-  role: ["developer", "guitarist"],
+  role: ["developer"],
   stack: ["React", "JSP", "Java", "SQL"],
-  currently: "studying React & DB design",
-  music: "🎸 always strumming",
+  currently: "studying React & DB design"
 };
 ```
 
