@@ -1,0 +1,111 @@
+<svg width="1280" height="120" viewBox="0 0 1280 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#bfab87;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#c9b896;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4c4a8;stop-opacity:1" />
+    </linearGradient>
+    <filter id="fretGlow2">
+      <feGaussianBlur stdDeviation="1.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- Fade out left edge -->
+    <linearGradient id="fadeLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9b896;stop-opacity:1" />
+      <stop offset="18%" style="stop-color:#c9b896;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="120" fill="url(#bgGrad2)"/>
+
+  <!-- ══ TOP BLACK BORDER ══ -->
+  <rect x="0" y="0" width="1280" height="10" fill="#1a1008" opacity="0.92"/>
+
+  <!-- ══ 6 GUITAR STRINGS (full width) ══ -->
+  <line x1="0" y1="25" x2="1280" y2="25" stroke="#7a5c3a" stroke-width="0.6" opacity="0.50"/>
+  <line x1="0" y1="40" x2="1280" y2="40" stroke="#7a5c3a" stroke-width="0.9" opacity="0.48"/>
+  <line x1="0" y1="56" x2="1280" y2="56" stroke="#7a5c3a" stroke-width="1.3" opacity="0.45"/>
+  <line x1="0" y1="72" x2="1280" y2="72" stroke="#7a5c3a" stroke-width="1.7" opacity="0.42"/>
+  <line x1="0" y1="88" x2="1280" y2="88" stroke="#7a5c3a" stroke-width="2.1" opacity="0.38"/>
+  <line x1="0" y1="104" x2="1280" y2="104" stroke="#7a5c3a" stroke-width="2.7" opacity="0.34"/>
+
+  <!-- ══ FRETS - Left side (coming from headstock, wider spacing) ══ -->
+  <!-- These go left-to-right as if viewed from player perspective, frets getting closer together -->
+  <!-- Fret 0 (nut) - far left -->
+  <line x1="60" y1="14" x2="60" y2="112" stroke="#5c3d1e" stroke-width="4.5" opacity="0.80" filter="url(#fretGlow2)"/>
+  <!-- Fret 1 -->
+  <line x1="155" y1="15" x2="155" y2="111" stroke="#7a5c3a" stroke-width="2.2" opacity="0.72"/>
+  <!-- Fret 2 -->
+  <line x1="245" y1="15" x2="245" y2="111" stroke="#7a5c3a" stroke-width="2.0" opacity="0.68"/>
+  <!-- Fret 3 -->
+  <line x1="328" y1="16" x2="328" y2="110" stroke="#7a5c3a" stroke-width="1.9" opacity="0.65"/>
+  <!-- Fret 4 -->
+  <line x1="406" y1="16" x2="406" y2="110" stroke="#7a5c3a" stroke-width="1.7" opacity="0.62"/>
+  <!-- Fret 5 -->
+  <line x1="478" y1="16" x2="478" y2="110" stroke="#7a5c3a" stroke-width="1.6" opacity="0.58"/>
+  <!-- Fret 6 -->
+  <line x1="545" y1="16" x2="545" y2="110" stroke="#7a5c3a" stroke-width="1.5" opacity="0.55"/>
+  <!-- Fret 7 -->
+  <line x1="607" y1="17" x2="607" y2="109" stroke="#7a5c3a" stroke-width="1.4" opacity="0.52"/>
+  <!-- Fret 8 -->
+  <line x1="665" y1="17" x2="665" y2="109" stroke="#7a5c3a" stroke-width="1.3" opacity="0.49"/>
+  <!-- Fret 9 -->
+  <line x1="718" y1="17" x2="718" y2="109" stroke="#7a5c3a" stroke-width="1.2" opacity="0.46"/>
+  <!-- Fret 10 -->
+  <line x1="767" y1="17" x2="767" y2="109" stroke="#7a5c3a" stroke-width="1.1" opacity="0.43"/>
+  <!-- Fret 11 -->
+  <line x1="813" y1="17" x2="813" y2="109" stroke="#7a5c3a" stroke-width="1.0" opacity="0.40"/>
+  <!-- Fret 12 (octave - double fret) -->
+  <line x1="854" y1="17" x2="854" y2="109" stroke="#5c3d1e" stroke-width="2.2" opacity="0.55" filter="url(#fretGlow2)"/>
+  <line x1="863" y1="17" x2="863" y2="109" stroke="#5c3d1e" stroke-width="2.2" opacity="0.45"/>
+  <!-- Fret 13 -->
+  <line x1="900" y1="18" x2="900" y2="108" stroke="#7a5c3a" stroke-width="0.95" opacity="0.38"/>
+  <!-- Fret 14 -->
+  <line x1="934" y1="18" x2="934" y2="108" stroke="#7a5c3a" stroke-width="0.90" opacity="0.35"/>
+  <!-- Fret 15 -->
+  <line x1="966" y1="18" x2="966" y2="108" stroke="#7a5c3a" stroke-width="0.85" opacity="0.33"/>
+  <!-- Fret 16 -->
+  <line x1="996" y1="18" x2="996" y2="108" stroke="#7a5c3a" stroke-width="0.80" opacity="0.31"/>
+  <!-- Fret 17 -->
+  <line x1="1024" y1="18" x2="1024" y2="108" stroke="#7a5c3a" stroke-width="0.75" opacity="0.29"/>
+  <!-- Fret 18 -->
+  <line x1="1050" y1="18" x2="1050" y2="108" stroke="#7a5c3a" stroke-width="0.70" opacity="0.27"/>
+  <!-- Fret 19 -->
+  <line x1="1074" y1="18" x2="1074" y2="108" stroke="#7a5c3a" stroke-width="0.65" opacity="0.25"/>
+  <!-- Fret 20 -->
+  <line x1="1097" y1="18" x2="1097" y2="108" stroke="#7a5c3a" stroke-width="0.62" opacity="0.23"/>
+  <!-- Fret 21 -->
+  <line x1="1118" y1="18" x2="1118" y2="108" stroke="#7a5c3a" stroke-width="0.60" opacity="0.21"/>
+  <!-- Fret 22 -->
+  <line x1="1138" y1="19" x2="1138" y2="107" stroke="#7a5c3a" stroke-width="0.58" opacity="0.19"/>
+  <!-- Fret 23 (fade out) -->
+  <line x1="1156" y1="19" x2="1156" y2="107" stroke="#7a5c3a" stroke-width="0.56" opacity="0.17"/>
+  <line x1="1173" y1="19" x2="1173" y2="107" stroke="#7a5c3a" stroke-width="0.54" opacity="0.15"/>
+  <line x1="1189" y1="19" x2="1189" y2="107" stroke="#7a5c3a" stroke-width="0.52" opacity="0.13"/>
+  <line x1="1204" y1="19" x2="1204" y2="107" stroke="#7a5c3a" stroke-width="0.50" opacity="0.11"/>
+  <line x1="1218" y1="19" x2="1218" y2="107" stroke="#7a5c3a" stroke-width="0.48" opacity="0.09"/>
+  <line x1="1232" y1="19" x2="1232" y2="107" stroke="#7a5c3a" stroke-width="0.46" opacity="0.07"/>
+  <line x1="1245" y1="19" x2="1245" y2="107" stroke="#7a5c3a" stroke-width="0.44" opacity="0.05"/>
+  <line x1="1258" y1="19" x2="1258" y2="107" stroke="#7a5c3a" stroke-width="0.42" opacity="0.04"/>
+
+  <!-- ══ FRET INLAY DOTS ══ -->
+  <!-- 3rd fret dot -->
+  <circle cx="286" cy="64" r="6" fill="#9a7550" opacity="0.30"/>
+  <!-- 5th fret dot -->
+  <circle cx="442" cy="64" r="6" fill="#9a7550" opacity="0.28"/>
+  <!-- 7th fret dot -->
+  <circle cx="576" cy="64" r="6" fill="#9a7550" opacity="0.26"/>
+  <!-- 9th fret dot -->
+  <circle cx="692" cy="64" r="6" fill="#9a7550" opacity="0.24"/>
+  <!-- 12th fret double dots -->
+  <circle cx="858" cy="48" r="6" fill="#9a7550" opacity="0.32"/>
+  <circle cx="858" cy="80" r="6" fill="#9a7550" opacity="0.32"/>
+  <!-- 15th fret dot -->
+  <circle cx="950" cy="64" r="5" fill="#9a7550" opacity="0.20"/>
+  <!-- 17th fret dot -->
+  <circle cx="1010" cy="64" r="5" fill="#9a7550" opacity="0.18"/>
+
+  <!-- ══ BOTTOM BLACK BORDER ══ -->
+  <rect x="0" y="110" width="1280" height="10" fill="#1a1008" opacity="0.92"/>
+</svg>
