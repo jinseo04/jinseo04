@@ -1,7 +1,22 @@
 <div align="center">
 
-<!-- 상단 물결 배너 -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4FC3F7,100:0288D1&height=200&section=header&text=최진서&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Developer%20%7C%20Creator%20%7C%20Problem%20Solver&descAlignY=58&descSize=18&descColor=e0f7fa" width="100%"/>
+<!-- 상단 배너 (SVG) -->
+<svg width="100%" viewBox="0 0 680 180" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="180" fill="#d6c4a8"/>
+  <line x1="0" y1="22" x2="680" y2="22" stroke="#a08060" stroke-width="0.8" opacity="0.5"/>
+  <line x1="0" y1="36" x2="680" y2="36" stroke="#a08060" stroke-width="0.8" opacity="0.5"/>
+  <line x1="0" y1="50" x2="680" y2="50" stroke="#a08060" stroke-width="0.8" opacity="0.5"/>
+  <line x1="0" y1="64" x2="680" y2="64" stroke="#a08060" stroke-width="0.8" opacity="0.5"/>
+  <line x1="0" y1="78" x2="680" y2="78" stroke="#a08060" stroke-width="0.8" opacity="0.5"/>
+  <line x1="0" y1="92" x2="680" y2="92" stroke="#a08060" stroke-width="0.8" opacity="0.5"/>
+  <line x1="430" y1="14" x2="430" y2="100" stroke="#6b4c28" stroke-width="4" opacity="0.6"/>
+  <line x1="490" y1="14" x2="490" y2="100" stroke="#8a6a44" stroke-width="2.5" opacity="0.45"/>
+  <line x1="545" y1="14" x2="545" y2="100" stroke="#8a6a44" stroke-width="2.5" opacity="0.35"/>
+  <line x1="595" y1="14" x2="595" y2="100" stroke="#8a6a44" stroke-width="2.5" opacity="0.28"/>
+  <line x1="638" y1="14" x2="638" y2="100" stroke="#8a6a44" stroke-width="2.5" opacity="0.20"/>
+  <text x="52" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700" fill="#3e2a10" letter-spacing="2" opacity="0.88">jinseo04</text>
+  <text x="56" y="168" font-family="'Courier New', monospace" font-size="11" fill="#6b4c28" letter-spacing="5" opacity="0.7">developer  ·  guitarist</text>
+</svg>
 
 <!-- 타이핑 애니메이션 -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=29B6F6&center=true&vCenter=true&width=500&lines=Hello%2C+World!+%F0%9F%91%8B;I+build+things+for+the+web+%F0%9F%8C%8A;Always+learning%2C+always+growing+%F0%9F%9A%80)](https://git.io/typing-svg)
@@ -136,5 +151,21 @@ const jinSeo = {
 
 <br/>
 
-<!-- 하단 물결 -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0288D1,100:4FC3F7&height=120&section=footer" width="100%"/>
+<!-- 하단 프렛 배너 -->
+<svg width="100%" viewBox="0 0 680 80" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="80" fill="#d6c4a8"/>
+  <line x1="0" y1="16" x2="680" y2="16" stroke="#a08060" stroke-width="0.8" opacity="0.5"/>
+  <line x1="0" y1="29" x2="680" y2="29" stroke="#a08060" stroke-width="0.8" opacity="0.5"/>
+  <line x1="0" y1="42" x2="680" y2="42" stroke="#a08060" stroke-width="0.8" opacity="0.5"/>
+  <line x1="0" y1="55" x2="680" y2="55" stroke="#a08060" stroke-width="0.8" opacity="0.5"/>
+  <line x1="0" y1="68" x2="680" y2="68" stroke="#a08060" stroke-width="0.8" opacity="0.5"/>
+  <line x1="110" y1="8" x2="110" y2="76" stroke="#6b4c28" stroke-width="4" opacity="0.55"/>
+  <line x1="210" y1="8" x2="210" y2="76" stroke="#8a6a44" stroke-width="2.5" opacity="0.42"/>
+  <line x1="300" y1="8" x2="300" y2="76" stroke="#8a6a44" stroke-width="2.5" opacity="0.32"/>
+  <line x1="380" y1="8" x2="380" y2="76" stroke="#8a6a44" stroke-width="2.5" opacity="0.24"/>
+  <line x1="450" y1="8" x2="450" y2="76" stroke="#8a6a44" stroke-width="2.5" opacity="0.17"/>
+  <line x1="512" y1="8" x2="512" y2="76" stroke="#8a6a44" stroke-width="2.5" opacity="0.12"/>
+  <line x1="567" y1="8" x2="567" y2="76" stroke="#8a6a44" stroke-width="2.5" opacity="0.08"/>
+  <line x1="616" y1="8" x2="616" y2="76" stroke="#8a6a44" stroke-width="2.5" opacity="0.06"/>
+  <line x1="660" y1="8" x2="660" y2="76" stroke="#8a6a44" stroke-width="2.5" opacity="0.04"/>
+</svg>
