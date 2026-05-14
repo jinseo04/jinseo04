@@ -2,8 +2,6 @@
 
 <img src="./banner_top.svg" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=8a6a44&center=true&vCenter=true&width=500&lines=항상 열정이 넘치고 시도하는 개발자 입니다.!;I+build+things+for+the+web;Always+learning%2C+always+growing)](https://git.io/typing-svg)
-
 <br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=jinseo04&color=8a6a44&style=flat-square&label=PROFILE+VIEWS)
