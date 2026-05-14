@@ -1,7 +1,5 @@
 <div align="center">
-
 <img src="./banner_top.svg" width="100%"/>
-
 <br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=jinseo04&color=8a6a44&style=flat-square&label=PROFILE+VIEWS)
@@ -39,7 +37,7 @@ const jinseo04 = {
 
 ### 💻 Back-end
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
--- 파이선 추가해줘
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![JSP](https://img.shields.io/badge/JSP-007396?style=flat-square&logo=openjdk&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
@@ -68,10 +66,10 @@ const jinseo04 = {
 ---
 
 ## ✨ Experience
+
 - 솜커톤 대회 **우수상** - 알림 리마인더 및 이벤트 추천 AI
 
 <br/>
-
 
 ---
 
